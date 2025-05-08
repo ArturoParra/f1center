@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'F1Bold';
+    src: url('/fonts/Formula1-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'F1Regular';
+    src: url('/fonts/Formula1-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'F1Wide';
+    src: url('/fonts/Formula1-Wide.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@theme{
+    --font-f1bold: 'F1Bold', sans-serif;
+    --font-f1regular: 'F1Regular', sans-serif;
+    --font-f1wide: 'F1Wide', sans-serif;
+
+    --color-primary: #E10600;
+    --color-secondary: #1D1D1B; /* Dark Slate Gray */
+    --color-tertiary: #38383F; /* Dark Slate Gray */
+    --color-background: #FFFFFF; /* White */
+}
