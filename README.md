@@ -9,6 +9,8 @@ F1Center es un proyecto creado por y para fans de la Fórmula 1 para estar al d�
 ### Prerequisitos
 
 - [Node.js] v22.14.0+
+- [npm]
+- [Acceso a la API de jolpica-F1]
 
 ### Pasos para instalar
 
@@ -28,3 +30,25 @@ F1Center es un proyecto creado por y para fans de la Fórmula 1 para estar al d�
 4. Ejecutar el frontend (desde el directorio raíz del proyecto):
    ```bash
    npm run dev
+
+## Estructura del proyecto
+      f1center/
+      ├── src/          # Frontend con React + Vite + TypeScript
+      │       ├── components/
+      │       ├── hooks/
+      │       └── views/
+      ├── backend/       # Backend con Node.js + Express
+      │   └── src/
+      │       └── routes/
+      ├── README.md
+      ├── .gitignore
+      └── package.json
+
+## Licencia
+Este proyecto está bajo licencia MIT
+
+## Contacto
+- Autor: Arturo Gabriel Parra Rivas
+- Email: parra.rivas.arturogabriel@gmail.com
+- GitHub: https://github.com/ArturoParra
+
