@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import axios from "axios"
+import { Header } from "./components/Header"
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <>
-      <h1 className='text-3xl font-black text-red-600'>F1Center</h1>
+      <Header/>
     </>
   )
 }
