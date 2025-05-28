@@ -30,4 +30,7 @@
     --color-secondary: #1D1D1B; /* Dark Slate Gray */
     --color-tertiary: #38383F; /* Dark Slate Gray */
     --color-background: #FFFFFF; /* White */
+    --color-accent: #EDEDED;
+
+    --breakpoint-xl: 1450px;
 }

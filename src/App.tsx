@@ -1,6 +1,8 @@
 import { useEffect } from "react"
 import axios from "axios"
 import { Header } from "./components/Header"
+import { BrowserRouter } from "react-router-dom"
+import { Router } from "./Router"
 
 function App() {
 
@@ -15,7 +17,9 @@ function App() {
 
   return (
     <>
-      <Header />
+      <BrowserRouter>
+        <Router/>
+      </BrowserRouter>
     </>
   )
 }
