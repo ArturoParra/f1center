@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@theme {
+  --color-f1-red: #e10600;
+  --color-f1-dark: #15151e;
+  --color-f1-card: #1e1e2d;
+  --color-f1-gray: #949498;
+  --color-f1-light: #f3f3f3;
+  --color-f1-carbon: #1b1b1b;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-f1-dark);
+    color: var(--color-f1-light);
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .f1-card {
+    @apply bg-f1-card rounded-xl border border-white/5 shadow-lg;
+  }
+  
+  .f1-btn-primary {
+    @apply bg-f1-red text-white font-bold py-2 px-4 rounded hover:bg-red-700 transition-colors uppercase tracking-wider;
+  }
+
+  .f1-text-header {
+    @apply font-bold text-white uppercase tracking-wider;
+  }
+}
